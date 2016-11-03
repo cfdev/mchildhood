@@ -1,0 +1,1 @@
+Animals illustration: http://carolinemoore.net/
