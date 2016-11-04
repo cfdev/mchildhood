@@ -10,6 +10,7 @@
 	<?php $plxShow->meta('author') ?>
 	<link rel="icon" href="<?php $plxShow->template(); ?>/img/favicon.png" />
 	<link rel="stylesheet" href="<?php $plxShow->template(); ?>/css/plucss.css" media="screen"/>
+	<link rel="stylesheet" href="<?php $plxShow->template(); ?>/css/font-awesome.min.css" media="screen"/>
 	<link rel="stylesheet" href="<?php $plxShow->template(); ?>/css/theme.css" media="screen"/>
 	<?php $plxShow->templateCss() ?>
 	<?php $plxShow->pluginsCss() ?>
@@ -33,8 +34,7 @@
 			<ul class="menu expanded">
 				<?php $plxShow->staticList($plxShow->getLang('HOME'),'<li class="#static_status" id="#static_id"><a href="#static_url" title="#static_name">#static_name</a></li>'); ?>
 				<?php $plxShow->pageBlog('<li id="#page_id"><a class="#page_status" href="#page_url" title="#page_name">#page_name</a></li>'); ?>
-			</ul>			
+			</ul>
 		</div>
 		<img src="<?php $plxShow->template(); ?>/img/animals.png" alt="animals" class="animalsTOP" />
 	</nav>
-	

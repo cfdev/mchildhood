@@ -12,18 +12,15 @@
 # ------------------- END LICENSE BLOCK -------------------
 */
 
-/* style extern */
-@import url('font-awesome.min.css');
-
 @font-face{
   font-family: 'fchild_tle';
-  src: url('../font/PWChildren.ttf');
+  src: url('../fonts/PWChildren.ttf');
   /* http://www.dafont.com/fr/pwchildren.font */
 }
 
 @font-face{
   font-family: 'fchild';
-  src: url('../font/School_Work.ttf');
+  src: url('../fonts/School_Work.ttf');
   /* http://www.dafont.com/fr/school-work.font */
 }
 
@@ -72,16 +69,11 @@ h1 a.maintitle{
 }
 
 img.animalsTOP {
-	top: 50px;
-    left: 60%;
-    position: absolute;
-    width: 300px;
-    z-index: -1;
-	/*top: 10px;
-    left: 60%;
-    position: relative;
-    width: 30%;
-    z-index: -1;*/
+	top: -150px;
+  left: 64%;
+  position: relative;
+  width: 300px;
+  z-index: -1;
 }
 @media (max-width: 767px) {
 	img.animalsTOP {
