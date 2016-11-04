@@ -277,52 +277,10 @@ a.tags{
 }
 .aside ul.tag-list li,
 .aside ul.tag-list li a {
-	/*background: #9C8825;
-	color: #fff;
-	padding: 0.25em;
-	border-radius: 2px;*/
 	display: inline;
 	margin-right: 0.5rem;
 }
-.aside ul.tag-list li a {
-	/*background: #9C8825;
-	color: #fff;
-	padding: 0.25em;
-	border-radius: 2px;*/
-}/*
-.aside ul.tag-list li.tag-size-1 {
-	font-size: 0.5rem;
-}
-.aside ul.tag-list li.tag-size-2 {
-	font-size: 0.6rem;
-}
-.aside ul.tag-list li.tag-size-3 {
-	font-size: 0.7rem;
-}
-.aside ul.tag-list li.tag-size-4 {
-	font-size: 0.8rem;
-}
-.aside ul.tag-list li.tag-size-5 {
-	font-size: 0.9rem;
-}
-.aside ul.tag-list li.tag-size-6 {
-	font-size: 1rem;
-}
-.aside ul.tag-list li.tag-size-7 {
-	font-size: 1.1rem;
-}
-.aside ul.tag-list li.tag-size-8 {
-	font-size: 1.2rem;
-}
-.aside ul.tag-list li.tag-size-9 {
-	font-size: 1.3rem
-}
-.aside ul.tag-list li.tag-size-10 {
-	font-size: 1.4rem;
-}
-.aside ul.tag-list li.tag-size-max {
-	font-size: 1.5rem;
-}*/
+
 .footer {
 	border-top: 3px solid #79471C;
 	padding: 2rem 0;
@@ -330,6 +288,24 @@ a.tags{
 }
 .footer p {
 	margin: 0;
+}
+/* ------------ PLUCSS OVER ------------*/
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  background-color: #A06631 !important;
+  color: #fff !important;
+  padding: .525rem .7rem !important;
+  border-radius: 2px !important;
+}
+button:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover {
+  background-color: #79471C !important;
+  color: #fff !important;
+  text-decoration: none !important;
 }
 
 /* ------------ CFDEV ------------*/
