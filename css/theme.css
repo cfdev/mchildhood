@@ -86,6 +86,8 @@ img.animalsTOP {
 	height: 3.6rem;
 	font-family: "fchild";
 	font-size: 2rem;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
 }
 .menu.expanded li.active a, .menu.expanded li.active:hover {
     background-color: #79471C;
