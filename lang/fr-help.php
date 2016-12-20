@@ -1,4 +1,7 @@
 <?php if (!defined('PLX_ROOT')) exit; ?>
+
+<p class="alert green">Soutenez mon travail en <strong><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8FYFQTCFQ9WZN">faisant un Don!</a></strong> Merci beaucoup.</p>
+
 <h3>Thème compatible PuXml version 5.5</h3>
 <ul>
   <li>Affichage des images d'accroches pour les articles</li>
