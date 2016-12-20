@@ -12,17 +12,6 @@
 # ------------------- END LICENSE BLOCK -------------------
 */
 
-@font-face{
-  font-family: 'fchild_tle';
-  src: url('../fonts/PWChildren.ttf');
-  /* http://www.dafont.com/fr/pwchildren.font */
-}
-
-@font-face{
-  font-family: 'fchild';
-  src: url('../fonts/School_Work.ttf');
-  /* http://www.dafont.com/fr/school-work.font */
-}
 
 body {
 	background: #eee url('../img/bg.png');
@@ -39,11 +28,18 @@ a:hover{
   transition: color .5s ease-in;
 }
 h1{
-	font-family: "fchild";
+	font-family:   'Lobster'/*'Butterfly Kids'*/,cursive;
+  font-weight: 100;
+}
+h1,h2,h3{
+	font-family:  'Lobster',cursive;
 }
 h1 a.maintitle{
-	font-family: "fchild_tle";
-	font-size: 4rem;
+	font-family:  'Lobster'/*'Butterfly Kids'*/, cursive;
+	font-size: 3.3rem;
+}
+h2{
+	margin-top: 0.5em;
 }
 .center {
     display:block;
@@ -67,9 +63,12 @@ h1 a.maintitle{
 .header h1 a:hover {
 	text-decoration: none;
 }
+header[role="banner"]{
+	padding-bottom: 3.5em;
+}
 
 img.animalsTOP {
-	top: -150px;
+	top: -130px;
   left: 64%;
   position: relative;
   width: 300px;
@@ -83,9 +82,9 @@ img.animalsTOP {
 
 .nav {
 	background-color: #A06631;
-	height: 3.6rem;
-	font-family: "fchild";
-	font-size: 2rem;
+	height: 2.95rem;
+	font-family:  'Lobster'/*'Butterfly Kids'*/, cursive;
+	font-size: 1.5rem;
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
 }
@@ -98,7 +97,7 @@ img.animalsTOP {
 }
 .nav a {
 	color: #eee;
-	font-size: 2rem;
+	font-size: 1.5rem;
 }
 @media (max-width: 767px) {
 	.nav {
@@ -143,7 +142,7 @@ img.animalsTOP {
 	padding-bottom: 1em;
 }
 .article header h1 {
-	font-size: 3rem;
+	font-size: 2.2rem;
 	font-weight: bold;
 }
 .article header h1 a {
@@ -258,7 +257,7 @@ a.tags{
 	}
 }
 .aside h3 {
-	font-size: 1rem;
+	font-size: 1.2rem;
 	font-weight: bold;
 	margin-top: 2rem;
 	text-transform: uppercase;

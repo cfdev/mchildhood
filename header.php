@@ -8,6 +8,8 @@
 	<?php $plxShow->meta('description') ?>
 	<?php $plxShow->meta('keywords') ?>
 	<?php $plxShow->meta('author') ?>
+  <link href="https://fonts.googleapis.com/css?family=Butterfly+Kids" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
 	<link rel="icon" href="<?php $plxShow->template(); ?>/img/favicon.png" />
 	<link rel="stylesheet" href="<?php $plxShow->template(); ?>/css/plucss.css" media="screen"/>
 	<link rel="stylesheet" href="<?php $plxShow->template(); ?>/css/font-awesome.min.css" media="screen"/>
@@ -24,7 +26,7 @@
 
 	<header class="header sml-text-center med-text-left" role="banner">
 		<h1 class="no-margin"><?php $plxShow->mainTitle('link'); ?></h1>
-		<h2 class="h5 no-margin"><?php $plxShow->subTitle(); ?></h2>
+		<h2 class="h5"><?php $plxShow->subTitle(); ?></h2>
 	</header>
 
 	<nav class="nav" role="navigation">
